@@ -21,6 +21,10 @@ class Fligt(BaseModel):
     
 class PredictionResponse(BaseModel):
     predict: list
+
+@app.get("/")
+def home():
+    return {"msg" : "hello"}
     
 @app.get("/health", status_code=200)
 async def get_health() -> dict:
