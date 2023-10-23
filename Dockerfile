@@ -19,6 +19,6 @@ EXPOSE 8000
 
 # Ejecuta la aplicación FastAPI con Uvicorn
 # CMD ["uvicorn", "__init__:application", "--host", "0.0.0.0", "--port", "8000", "--reload"]
-CMD ["uvicorn", "challenge.__init__:application", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "challenge.__init__:application", "--host", "0.0.0.0", "--port", "8080", "--reload"]
 
 
