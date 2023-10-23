@@ -1,2 +1,2 @@
 runtime: python37
-# entrypoint: uvicorn challenge.__init__:application
+entrypoint: python -m challenge
